@@ -15,12 +15,12 @@
             <h2>Registro de usuarios</h2>
             <form class="">
                 <label for="nombres">Nombres</label>
-                <input type="text" placeholder="Ingresa tus nombres completos" id="nombres">
+                <input type="text" placeholder="Ingresa tus nombres completos" id="nombres" pattern="[A-Z a-z]+">
 
                 <br>
 
                 <label for="apellidos">Apellidos</label>
-                <input type="text" placeholder="Ingrese apellidos" id="apellidos">
+                <input type="text" placeholder="Ingrese apellidos" id="apellidos" pattern="[A-Z a-z]+"{4,30}>
 
                 <br>
 
@@ -30,7 +30,7 @@
                 <br>
 
                 <label for="">Contraseña</label>
-                <input type="password" placeholder="Ingrese una contraseña">
+                <input type="password" placeholder="Ingrese una contraseña" required>
 
                 <br>
 
