@@ -1,0 +1,21 @@
+h1 {
+    font-family: Arial;
+}
+
+section {
+    background: aqua;
+}
+
+/* Esto es una clase */
+.resaltar {
+    background: yellow;
+}
+
+.textorojo {
+    color: red;
+}
+
+/* Para llamar un id se utiliza # */
+#importante {
+    border: 3px solid red;
+}

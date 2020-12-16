@@ -1,0 +1,71 @@
+/* Referencias */
+/* Seleccionando todos los h1 y articles */
+h1, article {
+    background: skyblue;
+}
+
+/* Para todos los articles hijos de section */
+section article {
+    color: blue;
+}
+
+ol>li {
+    font-family: Arial;
+    color: orangered;
+}
+
+ol>ul>li {
+    color: violet;
+}
+
+ol>ul>li>span {
+    background: lightgreen;
+}
+
+ol>ul>li>#resaltar{
+    background: yellow;
+}
+
+/* Este estilo aplica al primer p que este debajo ddel div */
+div+p {
+    background: blueviolet;
+    color: white;
+}
+.seccion2>h2 {
+    border: 2px solid green;
+}
+h2 {
+    border: 3px solid peru !important;
+}
+/* PSEUDOCLASES */
+
+p:nth-child(3) {
+    font-style: italic;
+    font-weight: bold;
+    color: tomato;
+}
+
+p:first-child {
+    color: salmon;
+    text-decoration: underline;
+    font-size: 16px !important;
+}
+
+/* Diseño en tablas */
+
+tr:nth-child(odd) {
+    background: springgreen;
+}
+
+tr:nth-child(even) {
+    background: lightcoral;
+}
+thead tr:nth-child(1) {
+    background: darkgreen;
+    color: white;
+}
+
+/* PAra todos los tipos */
+p:nth-of-type(1) {
+    font-size: 34px;
+}
