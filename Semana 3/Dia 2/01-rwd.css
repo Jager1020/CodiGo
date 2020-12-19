@@ -1,0 +1,38 @@
+nav {
+    background: coral;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width:420px){
+    nav {
+        background: blue;
+    }
+
+    ul {
+        /* display: block */
+        flex-direction: column;
+    }
+
+    ul>li {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:320px){
+    nav{
+        background-color: purple;
+    }
+}
