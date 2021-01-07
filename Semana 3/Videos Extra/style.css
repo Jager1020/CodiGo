@@ -1,0 +1,22 @@
+header {
+    background: red;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    header {
+        background: green;
+    }
+}
+
+@media (min-width: 600px) {
+    header {
+        background: pink;
+    }
+}
+
+@meia (main-width: 359px) and (max-width: 640px) {
+    header {
+        background: pink;
+    }
+}
